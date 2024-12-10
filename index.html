@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- CDN bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Iconos bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Iconos google fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+
+
+  <!-- CSS link -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>𝐍𝐚𝐇𝐮𝐊 | ʞɴʜ </title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/img/NaHuK_Logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+  <!-- encabezado -->
+
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"></svg>
+      <span class="fs-4"> <img src="/img/NaHuK_Logo.png" height="80px" alt="logoNaHuk"> </span>
+    </a>
+
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a id="nav-bttn" href="#sobreMi" class="nav-link active" aria-current="page">Inicio</a></li>
+      <li class="nav-item"><a href="#Proyectos" class="nav-link">Proyectos</a></li>
+      <li class="nav-item"><a href="https://github.com/karennahu" class="nav-link">Github</a></li>
+      <li class="nav-item"><a href="#Contacto" class="nav-link">Contacto</a></li>
+    </ul>
+  </header>
+<!--carrusel imagenes-->
+<style>
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-item img.custom-size {
+    max-width: 400px; /* Ajusta el ancho máximo según tus necesidades */
+    max-height: 600px; /* Ajusta la altura máxima según tus necesidades */
+    width: auto;
+    height: auto;
+  }
+</style>
+
+<!-- espacios -->
+
+<style>
+  #proyectosFrontEnd h3 {
+    margin-bottom: 2rem; /* Espacio inferior del título */
+  }
+</style>
+
+  <!-- cuerpo-->
+  <main>
+
+
+    <section class="sobreMi">
+      <div class="px-4 py-5 my-5 text-center">
+        <!-- foto -->
+        <img class="d-block mx-auto mb-4 rounded-circle" src="img/perfil44.jpeg" alt="Foto Karen Navarro Hurtado"
+          width="200" height="210">
+
+        <h1 class="display-5 fw-bold text-body-emphasis">Karen Navarro Hurtado </h1>
+
+        <!-- typescript -->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+
+        <!-- Botones -->
+            <a href="#Contacto">
+              <button type="button" id="buttonVerde" class="btn btn-primary btn-lg px-4 gap-3">Contactame!</button></a>
+            <!-- falta agregar link -->
+            <a href="https://drive.google.com/file/d/17_elvPunrVh4NluIiqKQlTrjvyez2Ry8/view?usp=sharing"><button type="button" class="btn btn-outline-secondary btn-lg px-4">Currículum vitae</button></a>
+
+            <a href="https://www.linkedin.com/in/karen-navarro-hurtado-116411201/">
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">LinkedIn</button></a>
+          </div>
+        </div>
+        <br> <br>
+
+        <div id="pasiones">
+          <!-- ponerle más info? -->
+          <p class="lead mb-4"> Estudiante de último año de Ingeniería en Computación, con experiencia en gestión de proyectos de desarrollo Front End y Back End, así como en bases de datos, ciberseguridad y liderazgo. También soy artista enfocada en el arte tradicional, incluyendo la creación de logos y pinturas físicas. </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Habilidades1">
+      
+      <div class="container px-4" id="hanging-icons">
+        
+        <h2 class="pb-2 border-bottom">Habilidades</h2>
+        <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
+          <!-- GESTION PROYECTOS -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                class="bi bi-bullseye" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                <path d="M8 13A5 5 0 1 1 8 3a5 5 0 0 1 0 10m0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12" />
+                <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8" />
+                <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Gestión de proyectos</h3>
+              <p>Amplia experiencia en coordinación de equipos multidisciplinarios. </p>
+            </div>
+          </div>
+          <!-- FRONT END -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.5em" fill="currentColor"
+                class="bi bi-filetype-html" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Desarrollo Front End</h3>
+              
+
+              <p>Creación de interfaces de paginas web, utilizando HTML, CSS y JavaScript.</p>
+            </div>
+          </div>
+          <!-- LIDERAZGO -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                class="bi bi-people" viewBox="0 0 16 16">
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Liderazgo y logística</h3>
+              <p>Amplia experiencia en liderazgo, logística y manejos de eventos. </p>
+
+            </div>
+          </div>
+          <!-- BACK END-->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis  d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor"
+                class="bi bi-window-fullscreen" viewBox="0 0 16 16">
+                <path
+                  d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+                <path
+                  d="M.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5zM1 5V2h14v3zm0 1h14v8H1z" />
+              </svg>
+            </div>
+
+            <div>
+              <h3 class="fs-2 text-body-emphasis"> Lógica de Programación</h3>
+              <p>Amplia experiencia en lógica de programación en el lenguaje de C++, Phyton, Java </p>
+            </div>
+          </div>
+          <!-- MACHINE LEARNING -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg class="bi" width="1.4em" height="1.5em" fill="currentColor" class="bi bi-pc-display-horizontal"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5M12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0m2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0M1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Telecomunicaciones</h3>
+              <p>Diseño, configuración y mantenimiento de TCP/IP, sistemas embebidos. </p>
+            </div>
+          </div>
+          <!-- REALIDAD VIRTUAL -->
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.6em" fill="currentColor"
+                class="bi bi-headset-vr" viewBox="0 0 16 16">
+                <path
+                  d="M8 1.248c1.857 0 3.526.641 4.65 1.794a5 5 0 0 1 2.518 1.09C13.907 1.482 11.295 0 8 0 4.75 0 2.12 1.48.844 4.122a5 5 0 0 1 2.289-1.047C4.236 1.872 5.974 1.248 8 1.248" />
+                <path
+                  d="M12 12a4 4 0 0 1-2.786-1.13l-.002-.002a1.6 1.6 0 0 0-.276-.167A2.2 2.2 0 0 0 8 10.5c-.414 0-.729.103-.935.201a1.6 1.6 0 0 0-.277.167l-.002.002A4 4 0 1 1 4 4h8a4 4 0 0 1 0 8" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">Realidad Virtual</h3>
+              <p>Experiencia en el manejo de Unity, diseño y creación de un entorno de VRI</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="Proyectos">
+
+
+      <div class="container px-4 py-5">
+      
+        <h3 class="pb-2 mb-4">Front End</h3>
+        <h3 class="pb-2 mb-4"></h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+<!-- JILUMIK -->
+          <div class="col">
+            <div class="card h-100">
+
+              <img src="/img/JILUMIKpagina.png" class="card-img-top" alt="Img Referencia">
+
+              <div class="card-body">
+                <a href="https://jilumik.wixsite.com/jilumik"><h5 class="card-title">JILUMIK CASCO DE FOTOBIOMODULACIÓN</h5></a>
+                <p class="card-text">JILUMIK fue fundada por un equipo de cinco estudiantes, incluyéndome a mí. Ofrecemos terapias avanzadas de fotobiomodulación para mejorar la calidad de vida de personas con trastornos neurológicos y psicológicos. </p>
+              </div>
+            </div>
+          </div>
+<!-- BAR BIZE NA  -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/barbizenaPagina1.png" class="card-img-top" alt="Img Referencia">
+              <div class="card-body">
+
+                <a href="https://www.barbizena.com/"><h5 class="card-title">DESARROLLO DE UNA PAGINA WEB DE UN BAR  </h5></a>
+                <p class="card-text"> Desarrollo de una página web para el bar Barbizena, utilizando tecnologías modernas para optimizar la experiencia del usuario y promover los servicios del establecimiento.</p>
+
+              </div>
+            </div>
+          </div>
+
+<!-- CLON DE PINTEREST  -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="/img/Clon_Pinterest.png" class="card-img-top" alt="Img Referencia">
+              <div class="card-body">
+
+                <a href="https://pinterest-clone-hgaq.vercel.app/"><h5 class="card-title">DESARROLLO DE CLON DE PINTEREST  </h5></a>
+                <p class="card-text"> Un proyecto personal que combina mi pasión por la programación y el arte. He desarrollado un clon de Pinterest donde he recopilado y mostrado una colección de mis pinturas creadas a lo largo del tiempo.</p>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+    </section>
+    
+<!-- Experiencia Estudiantil -->
+    <section id="carrousel" class="justify-content-center">
+      <div class=" container px-5 py-1">
+     <h2 class="pb-4 border-bottom"> Experiencia Estudiantil </h2>  
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner justify-content-center">
+
+          <div class="carousel-item active jus">
+            <div align="center">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FUAEMex%2Fposts%2Fpfbid0221M67V58E6EK24dd3K2Y8Y9X9ky7wMr7Rx7XocLXznz5sg9dqGvsYgotaWDnS2Mol&show_text=true&width=500" width="500" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div align="center">
+              
+              <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C9SKR33RYzV/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C9SKR33RYzV/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">Ver esta publicación en Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C9SKR33RYzV/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">Una publicación compartida por 𝐊𝐚𝐫𝐞𝐧𝐬 𝐍𝐚𝐇𝐮 | ʞɴʜ (@karens_nahu)</a></p></div></blockquote><script async src="//www.instagram.com/embed.js"></script>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div align="center">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02s3CkvNk4sbq3KZ2WPCh6ropMA6e6k3QdaY9r2QKFTB16Y1ZxGE9k7HihQUYcxaJl%26id%3D100086844985041&show_text=true&width=500" width="500" height="454" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+          </div>
+
+
+          <!-- IG SOMIB PRESI -->
+          <div class="carousel-item">
+            <div align="center">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSEyVUAEM%2Fposts%2Fpfbid02oi6TYdzscZNLUmUjCPX4P4jB145yi3JyGdydiUhnUMyM91euCfnEXMfnaP1Afg6Bl&show_text=true&width=500" width="500" height="728" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div></div>
+<!-- IG LOGVICE -->
+          <div class="carousel-item">
+            <div align="center">
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D732565592351915%26set%3Da.360791399529338%26type%3D3&show_text=true&width=500" width="500" height="811" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+            </div>
+          </div>
+<!-- 3er elemento -->
+          <div class="carousel-item">
+            <div align="center">
+              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FUAEMex%2Fvideos%2F765311775262763%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div align="center">
+              
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffundacionuaemex%2Fposts%2Fpfbid0kxYGjmEJhUe1AiQScp2JdULKctFDXEdrKUuwrjJeXTAz85Mc99PagDvJVdw1dqMxl&show_text=true&width=500" width="500" height="767" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div align="center">
+              
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCarlosEBDiaz%2Fposts%2Fpfbid031mUb2XKatjo8KcCUNBZsoZxEMzoNn4usrpKFgbJXjyhWSeMyyNPjpgKrZ5QqV1uXl&show_text=true&width=500" width="500" height="792" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div align="center">
+              
+              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FELINFORMANTEEstadoDeMexico%2Fposts%2Fpfbid0s1KesVoJnJWhETpYaSGrqDCkSLWtswncrAqGqYS4urDiwdqMdHYiUEhskUG2nVnWl&show_text=true&width=500" width="500" height="786" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+          </div>
+          </div>
+
+          
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        
+      </div>
+    </section>
+<!-- Reconocimientos-->
+<section id="reconocimientos" class="justify-content-center">
+  <div class="container px-5 py-1">
+    <h2 class="pb-4 border-bottom">Reconocimientos</h2>
+
+    <div id="carouselExampleReconocimientos" class="carousel slide">
+      <div class="carousel-inner justify-content-center">
+
+        <div class="carousel-item active">
+          <div align="center">
+            <img src="img/reconocimientoyo2.jpg" class="d-block w-100 custom-size" alt="Reconocimiento 1">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div align="center">
+            <img src="img/reconcimientoyo4.jpg" class="d-block w-100 custom-size" alt="Reconocimiento 2">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div align="center">
+            <img src="img/reconocimientoyo3.jpg" class="d-block w-100 custom-size" alt="Reconocimiento 3">
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div align="center">
+            <img src="img/reconocimientoyo1.jpg" class="d-block w-100 custom-size" alt="Reconocimiento 4">
+          </div>
+        </div>
+
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleReconocimientos" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleReconocimientos" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+    <section id="Contacto">
+      <div class="container my-5">
+        <div class="p-5 text-center bg-body-tertiary rounded-3" id="SeccionContactame">
+          <svg id="icon" xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" fill="currentColor"
+            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path
+              d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+            <path
+              d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+          </svg>
+          <h1 class="text-body-emphasis">Contáctame</h1>
+          <p class="col-lg-8 mx-auto fs-5 text-muted">
+            Iniciemos un proyecto juntos!
+          </p>
+          <div class="d-inline-flex gap-2 mb-5">
+            <!-- se puede configurar con copia para... y subject ya especificado -->
+            <a href="mailto:karen.navarro.hurtado@gmail.com">
+              <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" id="buttonVerde"
+                type="button">
+                Email
+              </button></a>
+
+            <a href="https://www.linkedin.com/in/karen-navarro-hurtado-116411201/">
+              <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+                LinkedIn
+              </button></a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- pie de pag--->
+  <footer class="py-3 my-4">
+      <!-- JUSTIFY CONTENT CENTERR -->
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <!-- MAIL -->
+        <li class="nav-item"> <a href="mailto:karen.navarro.hurtado@gmail.com" target="_blank"
+            class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-envelope-at-fill"></i>
+          </a>
+        </li>
+
+        <!-- GITHUB -->
+        <li class="nav-item"> <a href="https://github.com/karennahu" target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-github"></i>
+          </a>
+        </li>
+        <!-- Linkdin -->
+        <li class="nav-item"> <a href="https://www.linkedin.com/in/karen-navarro-hurtado-116411201/"
+            target="_blank" class="nav-link px-2 text-body-secondary icon-footer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </li>
+
+
+      </ul>
+      <p class="text-center"> Creado por Karen NaHu - © 𝐍𝐚𝐇𝐮𝐊 | ʞɴʜ </p>
+  </footer>
+
+  <!-- Typewriter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- SIEMPRE AL FINAL -->
+  <script src="js/main.js"></script>
+  <!-- script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+
+</html>
